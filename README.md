@@ -49,8 +49,9 @@ The last section of a high-quality README file is the license. This lets other d
 
 GitHub Badges
 
-![Pull Shark](https://github.com/users/KarlaFuGue/achievements/pull-shark)
-[Quickdraw] (https://github.com/users/KarlaFuGue/achievements/pull-shark)
+![Pull Shark][Pull Shark]
+
+[Quickdraw] [https://github.com/users/KarlaFuGue/achievements/pull-shark]
 
 
 
@@ -69,3 +70,4 @@ If you created an application or package and would like other developers to cont
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 [https://github.com/users/KarlaFuGue/achievements/pull-shark]: https://github.com/users/KarlaFuGue/achievements/pull-shark
+[Pull Shark]: https://github.com/users/KarlaFuGue/achievements/pull-shark
