@@ -3,7 +3,7 @@
 ## See My Work - Bootstrap
 
 I'm a Front-end Developer Starter, and eager learner of the digital world.
-The interests for Web Development started when my partner launched his own building company, and started to work on the media and advertising. However, it wasn't until I had the opportunity to work for a company which offers ERP Solutions, where I took the desicion to follow this path
+The interests for Web Development started when my partner launched his own building company, and started to work on the media and advertising. However, it wasn't until I had the opportunity to work for a company which offers ERP Solutions, where I took the decision to follow this path.
 
 The purpose of this project, is to show people the new skills that I have been getting during my learning journey. This time will be showing my bootstrap skills.
 
@@ -11,18 +11,13 @@ I know this will be just one of many portfolios I'm going to build, as this is j
 
 
 
-## Table of Contents (Optional)
+## Content 
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
+- [Navigation](#navigation)
+- [About Me](#aboutme)
+- [My Work](#mywork)
+- [Contact](#contact)
 - [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
@@ -52,7 +47,12 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+GitHub Badges
+
+![Pull Shark](https://github.com/users/KarlaFuGue/achievements/pull-shark)
+[Quickdraw] (https://github.com/users/KarlaFuGue/achievements/pull-shark)
+
+
 
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
@@ -67,3 +67,5 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+
+[https://github.com/users/KarlaFuGue/achievements/pull-shark]: https://github.com/users/KarlaFuGue/achievements/pull-shark
