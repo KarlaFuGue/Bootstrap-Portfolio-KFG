@@ -1,7 +1,23 @@
+body {
+    background-color: #1F5373;
+}
+.Aboutme-container {
+    display: flex;
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .Work-container {
     margin-bottom: 2rem;
 }
+.bg-light {
+    background-color: transparent!important;
+}
+row {
+    display: flex;
+    row-gap: 1rem;
 
+}
 .tool-container {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -36,10 +52,12 @@
 
 /* Fluid Jumbotron */
 .jumbotron {
-    background-image:url(CSS-Folder/images/pex4497761small.jpg);
+    background-image: url(images/pex4497761small.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    height: calc(40rem - 25px);
+    height: calc(45rem - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
 }
