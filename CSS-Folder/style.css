@@ -36,5 +36,10 @@
 
 /* Fluid Jumbotron */
 .jumbotron {
-    background-image:url(CSS-Folder/images/pex4497761.jpg)
+    background-image:url(CSS-Folder/images/pex4497761small.jpg);
+    background-repeat: no-repeat;
+    height: calc(40rem - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
