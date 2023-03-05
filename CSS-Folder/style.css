@@ -1,3 +1,7 @@
+.Work-container {
+    margin-bottom: 2rem;
+}
+
 .tool-container {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -32,8 +36,5 @@
 
 /* Fluid Jumbotron */
 .jumbotron {
-    background-image: url(CSS-Folder/images/pex4497761.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    background-image:url(CSS Folder/images/pex4497761.jpg)
 }
