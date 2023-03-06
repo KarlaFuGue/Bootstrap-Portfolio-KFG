@@ -32,9 +32,24 @@ body {
     justify-content: center;
     margin-top: 1rem;
 }
+#display-4 {
+    color:#8C034E;
+    font-weight:bold;
+    text-align: center;
+}
+#Role {
+    color: #404040;
+    text-align: center;
+    
+}
 #ID {
     background-color: rgba(255, 255, 255, 0.8);
-    border-bottom: #8C034E;
+    border-bottom: 7px solid #8C034E;
+    position: absolute !important;
+    right: 10%;
+    top: 35%;
+    padding: 25px;
+    max-width: 350px;
 }
 /*Absolute Photo*/
 
@@ -107,5 +122,4 @@ row {
     text-align: center;
     background-color: #52ab98;
     color: #ffff;
-
 }
