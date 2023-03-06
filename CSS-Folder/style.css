@@ -32,6 +32,10 @@ body {
     justify-content: center;
     margin-top: 1rem;
 }
+#ID {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: #8C034E;
+}
 /*Absolute Photo*/
 
 .ProfilePhoto {
