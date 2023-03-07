@@ -21,6 +21,8 @@
 </head>
 
 <body>
+  <!--Wrapper to make website reponsive-->
+    <div class="wrapper">
     <!--Navigation top-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="CSS-Folder/images/Sticker.png"></a>
@@ -31,16 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#AboutMe">About Me<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#About">About Me<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#SeeMyWork">See My Work</a>
+              <a class="nav-link" href="#Most.Important">See My Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Tools">Tools</a>
+              <a class="nav-link" href="#Tool">Tools</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#ContactMe">Contact Me</a>
+              <a class="nav-link" href="#Details">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -52,15 +54,18 @@
             <h1 id="display-4">Karla Fuentes</h1>
             <p id="Role"class="lead">Front End Web Developer</p>
           </div>  
+          <a href="##" class="CV-button">
+            <button type="button" class="btn btn-secondary btn-lg">Resume</button>
+          </a>
         </div>
         <figure class="ProfilePhoto">
-          <img src="/CSS-Folder/images/IMG_1047-removebg-preview.png">
+          <img src="CSS-Folder/images/IMG_1047-removebg-preview.png">
         </figure>
     </section>
     <!--CV Section-->
     
     <!--About Me-->
-    <div class="container">
+    <div id="About" class="container">
       <div class="AboutMe-container">
           <h2 class="Subheading">About Me</h2>
       </div>   
@@ -78,57 +83,59 @@
     
     <div class="row no-gutters bg-light position-relative">
         <div class="col-md-6 mb-md-0 p-md-4">
-          <img src="/CSS-Folder/images/bowtie-cat.png" class="w-100" alt="Cat wearing a tie">
+          <img src="CSS-Folder/images/bowtie-cat.png" class="w-100" alt="Cat wearing a tie">
         </div>
         <div class="col-md-6 position-static p-4 pl-md-0">
           <h5 class="mt-0">My Very first Website</h5>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, illum deserunt! Ipsa, fugit omnis laboriosam animi perspiciatis odit voluptatum!</p>
-          <a href="#" class="stretched-link">Go somewhere</a>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, illum deserunt! Ipsa, fugit omnis laboriosam animi perspiciatis odit voluptatum!</p>
+          <a href="https://karlafugue.github.io/2.-prework-study-guide/" class="stretched-link">See more</a>
         </div>
       </div>
     
       <div class="row no-gutters bg-light position-relative">        
         <div class="col-md-6 position-static p-4 pl-md-0">
           <h5 class="mt-0">Working With CSS Challenge: Portfolio</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quia aliquid dolor aperiam autem soluta iusto voluptatem sunt. Dolor sunt quaerat animi, porro ducimus repudiandae aliquam, itaque placeat quasi ad ratione perspiciatis, voluptatum cum soluta omnis consequatur rerum ab fugiat.</p>
-          <a href="#" class="stretched-link">Go somewhere</a>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quia aliquid dolor aperiam autem soluta iusto voluptatem sunt. Dolor sunt quaerat animi, porro ducimus repudiandae aliquam, itaque placeat quasi ad ratione perspiciatis, voluptatum cum soluta omnis consequatur rerum ab fugiat.</p>
+          <a href="https://karlafugue.github.io/See-My-Work/" class="stretched-link">See more</a>
         </div>
-        <div class="col-md-6 mb-md-0 p-md-4">
-            <img src="/CSS-Folder/images/sc12340reen.jpeg" class="w-100" alt="Screen monitor">
+        <div id="Most.Important" class="col-md-6 mb-md-0 p-md-4">
+            <img src="CSS-Folder/images/sc12340reen.jpeg" class="w-100" alt="Screen monitor">
         </div>
       </div>
 
       <div class="row no-gutters bg-light position-relative">
         <div class="col-md-6 mb-md-0 p-md-4">
-          <img src="/CSS-Folder/images/HoriseonMeeting.png" class="w-100" alt="Marketing team in a meeting">
+          <img src="CSS-Folder/images/HoriseonMeeting.png" class="w-100" alt="Marketing team in a meeting">
         </div>
         <div class="col-md-6 position-static p-4 pl-md-0">
           <h5 class="mt-0">Challenge: Accessibility</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellat inventore voluptatum quibusdam numquam ducimus tempora alias, enim quos quasi est necessitatibus eligendi rerum asperiores assumenda sit optio illo suscipit?</p>
-          <a href="#" class="stretched-link">Go somewhere</a>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellat inventore voluptatum quibusdam numquam ducimus tempora alias, enim quos quasi est necessitatibus eligendi rerum asperiores assumenda sit optio illo suscipit?</p>
+          <a href="CSS-Folder/images/01-html-css-git-challenge-demo.png" class="stretched-link">See more</a>
         </div>
       </div>
     <!--Tools-->  
     <div class="GridContainer1">
-        <div class="tool-container">
+        <div id="Tool" class="tool-container">
             <h2 class="Subheading">Languages & Tools</h2>
-        </div>    
+        </div> 
+        <div class="GridContainer3"> 
             <img src="CSS-Folder/images/HTML5.png" class="rounded-sm" alt="HTML 5">
-            <img src="CSS-Folder/images/CSS.png" class="rounded-lg" alt="CSS 3">
-            <img src="CSS-Folder/images/GH.png" class="rounded-lg" alt="GitHub Logo">
-            <img src="..." class="rounded-lg" alt="...">
-            <img src="..." class="rounded-lg" alt="...">
+            <img src="CSS-Folder/images/CSS-removebg-preview.png" class="rounded-lg" alt="CSS 3">
+            <img src="CSS-Folder/images/GH-removebg-preview.png" class="rounded-lg" alt="GitHub Logo">
+            <img src="CSS-Folder/images/Bootstrap-removebg-preview.png" class="rounded-lg" alt="Bootstrap">
+            <img src="CSS-Folder/images/UX-removebg-preview.png" class="rounded-lg" alt="...">
+        </div>      
     <!--Web foooter-->
     <div class="GridContainer2">
         <div class="Contact-container">
-            <h2>Contact</h2>
+            <h2 id="Details">Contact Me</h2>
         </div>  
-          <a href="tel:6031112298">📱+44 7388 000000</a>
-          <a href="mailto:kxf221@bham.ac.uk">📩 kxf221@student.bham.ac.uk</a>
-          <a href="https://github.com/KarlaFuGue" target="_blank">😺 GitHub</a>
-          <a href="https://www.linkedin.com/in/karla-f-051392196" target="_blank">👩‍🏫 LinkedIn</a>  
+          <a href="tel:6031112298" class="badge badge-dark">📱+44 7388 000000</a>
+          <a href="mailto:kxf221@bham.ac.uk" class="badge badge-dark">📩 kxf221@student.bham.ac.uk</a>
+          <a href="https://github.com/KarlaFuGue" class="badge badge-dark" target="_blank">😺 GitHub</a>
+          <a href="https://www.linkedin.com/in/karla-f-051392196" target="_blank" class="badge badge-dark">👩‍🏫 LinkedIn</a>  
     </div>   
-    
+  </div>
 </body>
 
 </html>
